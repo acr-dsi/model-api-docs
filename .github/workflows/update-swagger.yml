@@ -1,5 +1,8 @@
 name: Update Swagger UI
 on:
+  push:
+    branches:
+      - master
   schedule:
     - cron:  '0 10 * * *'
   repository_dispatch:
